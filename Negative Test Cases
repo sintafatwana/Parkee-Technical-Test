@@ -1,0 +1,62 @@
+## Test Case 1: Missing vehicle number
+- Title: Display parking receipt after payment
+- Precondition: User is already registered
+- Test Steps: 
+  1. Do not input vehicle number on entry
+- Expected Result: Show warning or display "Unknown"
+
+## Test Case 2: Incorrect duration calculation
+- Title: Incorrect duration calculation
+- Precondition: User is already registered
+- Test Steps: 
+  1. System fails to calculate time difference
+- Expected Result: Display unusual value, e.g., "-1 hour"
+
+## Test Case 3: Total amount not shown
+- Title: Total amount not shown
+- Precondition: User is already registered
+- Test Steps: 
+  1. Parking fee fails to load
+- Expected Result: Total appears as "IDR 0" when not free
+
+## Test Case 4: Missing payment method
+- Title: Missing payment method
+- Precondition: User is already registered
+- Test Steps: 
+  1. Transaction not processed
+- Expected Result: No payment method displayed
+
+## Test Case 5: Download button not functional
+- Title: Download button not functional
+- Precondition: User is already registered
+- Test Steps: 
+  1. UI glitch or loading error
+- Expected Result: "Download" button not clickable
+
+## Test Case 6: Rating feature unresponsive
+- Title: Rating feature unresponsive
+- Precondition: User is already registered
+- Test Steps: 
+  1. Enter a vehicle number upon entry (e.g., B123HO)
+- Expected Result: The vehicle number is displayed correctly as "B123HO"
+
+## Test Case 7: No alert for missing data
+- Title: No alert for missing data
+- Precondition: User is already registered
+- Test Steps: 
+  1. Key data missing (e.g. exit gate)
+- Expected Result: No system notification or fallback message
+
+## Test Case 8: Time data inconsistency
+- Title: Time data inconsistency
+- Precondition: User is already registered
+- Test Steps: 
+  1. Entry time is after exit time
+- Expected Result: Invalid timestamps are not flagged
+
+## Test Case 9: Poor mobile responsiveness
+- Title: Poor mobile responsiveness
+- Precondition: User is already registered
+- Test Steps: 
+  1. Open on small screen
+- Expected Result: Layout breaks or text overlaps
