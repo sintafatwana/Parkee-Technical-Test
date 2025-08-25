@@ -1,0 +1,62 @@
+## Test Case 1: Display parking receipt after payment
+- Title: Display parking receipt after payment
+- Precondition: User is already registered
+- Test Steps: 
+  1. Complete parking and payment process
+- Expected Result: Digital receipt is displayed with full details
+
+## Test Case 2: Vehicle number displayed correctly
+- Title: Vehicle number displayed correctly
+- Precondition: User is already registered
+- Test Steps: 
+  1. Enter a vehicle number upon entry
+- Expected Result: Vehicle number shown as "B123HO"
+
+## Test Case 3: Vehicle type is correct
+- Title: Vehicle type is correct
+- Precondition: User is already registered
+- Test Steps: 
+  1. Enter vehicle type (car)
+- Expected Result: Displays "CAR"
+
+## Test Case 4: Parking duration is calculated correctly
+- Title: Parking duration is calculated correctly
+- Precondition: User is already registered
+- Test Steps: 
+  1. Enter and exit within 2 minutes
+- Expected Result: Duration shown as "0days 0hours 2min"
+
+## Test Case 5: Total fee is displayed
+- Title: Total fee is displayed
+- Precondition: User is already registered
+- Test Steps: 
+  1. Finish parking and make payment
+- Expected Result: Total: "IDR 10"
+
+## Test Case 6: Payment method is shown
+- Title: Payment method is shown
+- Precondition: User is already registered
+- Test Steps: 
+  1. Pay using DANA
+- Expected Result: Displays "Paid With DANA"
+
+## Test Case 7: Share & download options available
+- Title: Share & download options available
+- Precondition: User is already registered
+- Test Steps: 
+  1. After receipt is shown
+- Expected Result: "SHARE RECEIPT" and "DOWNLOAD" buttons are active
+
+## Test Case 8: Rating feature works
+- Title: Rating feature works
+- Precondition: User is already registered
+- Test Steps: 
+  1. Click on star rating
+- Expected Result: Rating can be selected and recorded
+
+## Test Case 9: Valid entry and exit times
+- Title: Valid entry and exit times
+- Precondition: User is already registered
+- Test Steps: 
+  1. Enter and exit the parking area
+- Expected Result: Times shown correctly (e.g. 14:31 - 14:33)
